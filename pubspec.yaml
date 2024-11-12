@@ -1,0 +1,84 @@
+name: bloc_learner
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  equatable: ^2.0.5
+  page_transition: ^2.1.0
+  shared_preferences: ^2.2.3
+  google_fonts: ^6.2.1
+  image_picker: ^1.1.2
+  http: ^1.2.1
+  flutter_inset_box_shadow: ^1.0.8
+  scrollable_positioned_list: ^0.3.8
+  scroll_to_id: ^1.5.1
+  sticky_headers: ^0.3.0+2
+  simple_animations: ^5.0.2
+  cached_network_image: ^3.4.1
+  rive: ^0.13.13
+  flutter_svg: ^2.0.10+1
+  sliding_up_panel: ^2.0.0+1
+  side_menu_animation: ^1.1.0
+  visibility_detector: ^0.4.0+2
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  lottie: ^3.1.3
+  flutter_dotenv: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/avaters/
+    - assets/Backgrounds/
+    - assets/icons/
+    - assets/RiveAssets/
+    - assets/json/
+    - .env
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Ultralight.otf
+          weight: 100
+        - asset: assets/fonts/SF-Pro-Display-Thin.otf
+          weight: 200
+        - asset: assets/fonts/SF-Pro-Display-Light.otf
+          weight: 300
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SF-Pro-Display-Heavy.otf
+          weight: 800
+        - asset: assets/fonts/SF-Pro-Display-Black.otf
+          weight: 900
